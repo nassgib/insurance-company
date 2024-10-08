@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ингосстрах</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/">
+                <img class="header__logo" src="/images/logo-1.png" alt="Ингосстрах">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="pages/page-1.html">Защита машины</a></li>
+                    <li><a href="pages/page-2.html">Путешествия</a></li>
+                    <li><a href="pages/page-3.html">Защита жилья</a></li>
+                    <li><a href="/">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h3>Добавить клиента</h3>
+
+    <form id="client-form">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+    
+      <label for="surname">Фамилия:</label>
+      <input type="text" id="surname" name="surname" required>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <button type="submit">Добавить</button>
+    </form>
+    <hr width="100%" class="line"/>
+    
+    <script src="script.js"></script>
+    
+    <div class="container">
+        <h1> Страхования </h1>
+    
+        <div class="cards">
+    
+            <div class="card">
+                <a href="./pages/page-1.html">
+                <img alt="ОСАГО" src="./images/img-1.jpg" class="container__image"/>
+                <h2 class="container__title">Защита машины</h2>
+                <p class="container__text">от 3.000₽</p>
+                </a>
+            </div>
+    
+            <div class="card">
+                <a href="./pages/page-3.html">
+                <img alt="Жилье" src="./images/img-2.png" class="container__image"/>
+                <h2 class="container__title">Защита жилья</h2>
+                <p class="container__text">от 10.000₽</p>
+                </a>
+            </div>
+    
+            <div class="card">
+                <a href="./pages/page-2.html">
+                <img alt="CПутешествия" src="./images/img-3.jpg" class="container__image"/>
+                <h2 class="container__title">Защита жизни</h2>
+                <p class="container__text">от 1.500₽</p>
+                </a>
+            </div>
+    
+        </div>    
+    </div> <br>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">ИНГОССТРАХ ® 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
